@@ -3,73 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemoo | Creative Hub</title>
+    <title>Gemoo | Digital Product Design Brand</title>
+    <meta name="description" content="Gemoo is a premium digital product design brand creating intuitive, scalable, and meaningful digital experiences.">
+    <meta name="author" content="Gemoo">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2563EB">
+    <meta name="color-scheme" content="light">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gemoo | Digital Product Design Brand">
+    <meta property="og:description" content="Designing Products That Grow. Digital Product Design Brand creating intuitive, scalable, and meaningful digital experiences.">
+    <meta property="og:image" content="Gemoo - Symbol.png">
+    <meta property="og:site_name" content="Gemoo">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gemoo | Digital Product Design Brand">
+    <meta name="twitter:description" content="Designing Products That Grow. Digital Product Design Brand creating intuitive, scalable, and meaningful digital experiences.">
+    <meta name="twitter:image" content="Gemoo - Symbol.png">
+
+    <link rel="icon" href="Gemoo - Symbol.png">
+    <link rel="apple-touch-icon" href="Gemoo - Symbol.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gemoo-style.css">
-    <link rel="icon" href="Gemoo - Symbol.png">
 </head>
 <body>
-    <div class="gemoo-container">
-        <div class="gemoo-language">
-            <button id="gemoo-lang-en" class="active">EN</button>
-            <button id="gemoo-lang-ar">AR</button>
-        </div>
+    <header class="gemoo-site-header" aria-label="Gemoo header">
+        <nav class="gemoo-nav" aria-label="Primary navigation">
+            <a href="https://gemo02011.github.io/my-portfolio" class="gemoo-brand" target="_blank" rel="noopener noreferrer" aria-label="Visit Gemoo portfolio">
+                <img src="Gemoo - Symbol.png" alt="Gemoo symbol" class="gemoo-brand-symbol">
+                <span>Gemoo</span>
+            </a>
 
-        <div class="gemoo-profile">
-            <img src="Gemoo - Symbol.png" alt="Gemoo Logo" class="gemoo-logo">
-            <h1 id="gemoo-name">Gemoo</h1>
-            <p id="gemoo-title">Creative Designer & Developer</p>
-        </div>
+            <div class="gemoo-language" aria-label="Language selector">
+                <button id="gemoo-lang-en" class="active" type="button" aria-label="Switch language to English">EN</button>
+                <button id="gemoo-lang-ar" type="button" aria-label="Switch language to Arabic">AR</button>
+            </div>
+        </nav>
+    </header>
 
-        <div class="gemoo-links">
-            <a href="mailto:gemoodesign@gmail.com" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">📧</span>
-                <span class="gemoo-link-text" data-en="Email" data-ar="البريد">Email</span>
-            </a>
-            <a href="https://gemo02011.github.io/my-portfolio" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">🎨</span>
-                <span class="gemoo-link-text" data-en="Portfolio" data-ar="بورتفوليو">Portfolio</span>
-            </a>
-            <a href="https://www.instagram.com/gemoo_design1" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">📸</span>
-                <span class="gemoo-link-text" data-en="Instagram" data-ar="إنستجرام">Instagram</span>
-            </a>
-            <a href="https://www.tiktok.com/@gemoo_design1" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">🎵</span>
-                <span class="gemoo-link-text" data-en="TikTok" data-ar="تيك توك">TikTok</span>
-            </a>
-            <a href="https://www.linkedin.com/in/gamal-mohamed-26330832a" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">💼</span>
-                <span class="gemoo-link-text" data-en="LinkedIn" data-ar="لينكدإن">LinkedIn</span>
-            </a>
-            <a href="https://www.behance.net/gamalmohamed74" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">✨</span>
-                <span class="gemoo-link-text" data-en="Behance" data-ar="بيهانس">Behance</span>
-            </a>
-            <a href="https://x.com/gemoo_design1" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">𝕏</span>
-                <span class="gemoo-link-text" data-en="Twitter (X)" data-ar="تويتر (X)">Twitter (X)</span>
-            </a>
-            <a href="https://wa.me/966549155148" class="gemoo-btn" target="_blank">
-                <span class="gemoo-emoji">💬</span>
-                <span class="gemoo-link-text" data-en="WhatsApp" data-ar="واتساب">WhatsApp</span>
-            </a>
-        </div>
+    <main class="gemoo-container">
+        <section class="gemoo-hero" aria-labelledby="gemoo-name">
+            <div class="gemoo-profile">
+                <img src="Gemoo - Symbol.png" alt="Official Gemoo brand symbol" class="gemoo-logo">
+                <p class="gemoo-eyebrow">Digital Product Design Brand</p>
+                <h1 id="gemoo-name">Gemoo</h1>
+                <p id="gemoo-title">Designing Products That Grow.</p>
+                <p class="gemoo-description">
+                    Digital Product Design Brand creating intuitive, scalable, and meaningful digital experiences.
+                </p>
+            </div>
+        </section>
 
-        <div class="gemoo-qr">
-            <div id="gemoo-qrcode"></div>
-            <p id="gemoo-qr-text">Scan to visit my portfolio</p>
-        </div>
+        <section class="gemoo-links-section" aria-labelledby="gemoo-links-title">
+            <div class="gemoo-section-header">
+                <p class="gemoo-section-kicker">Explore</p>
+                <h2 id="gemoo-links-title">Gemoo Links</h2>
+            </div>
 
-        <div class="gemoo-social">
-            <a href="https://www.instagram.com/gemoo_design1" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@gemoo_design1" target="_blank"><i class="fab fa-tiktok"></i></a>
-            <a href="https://www.linkedin.com/in/gamal-mohamed-26330832a" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.behance.net/gamalmohamed74" target="_blank"><i class="fab fa-behance"></i></a>
-            <a href="https://x.com/gemoo_design1" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-    </div>
+            <div class="gemoo-links" aria-label="Gemoo primary links">
+                <a href="https://gemo02011.github.io/my-portfolio" class="gemoo-btn gemoo-link-card" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo portfolio">
+                    <span class="gemoo-link-icon" aria-hidden="true">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </span>
+                    <span class="gemoo-link-content">
+                        <span class="gemoo-link-text" data-en="Portfolio" data-ar="بورتفوليو">Portfolio</span>
+                    </span>
+                    <span class="gemoo-link-arrow" aria-hidden="true">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                </a>
+
+                <a href="https://www.behance.net/gamalmohamed74" class="gemoo-btn gemoo-link-card" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo Behance profile">
+                    <span class="gemoo-link-icon" aria-hidden="true">
+                        <i class="fab fa-behance"></i>
+                    </span>
+                    <span class="gemoo-link-content">
+                        <span class="gemoo-link-text" data-en="Behance" data-ar="بيهانس">Behance</span>
+                    </span>
+                    <span class="gemoo-link-arrow" aria-hidden="true">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/gamal-mohamed-26330832a" class="gemoo-btn gemoo-link-card" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo LinkedIn profile">
+                    <span class="gemoo-link-icon" aria-hidden="true">
+                        <i class="fab fa-linkedin-in"></i>
+                    </span>
+                    <span class="gemoo-link-content">
+                        <span class="gemoo-link-text" data-en="LinkedIn" data-ar="لينكدإن">LinkedIn</span>
+                    </span>
+                    <span class="gemoo-link-arrow" aria-hidden="true">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                </a>
+
+                <a href="mailto:gemoodesign@gmail.com" class="gemoo-btn gemoo-link-card" target="_blank" rel="noopener noreferrer" aria-label="Send an email to Gemoo">
+                    <span class="gemoo-link-icon" aria-hidden="true">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <span class="gemoo-link-content">
+                        <span class="gemoo-link-text" data-en="Email" data-ar="البريد">Email</span>
+                    </span>
+                    <span class="gemoo-link-arrow" aria-hidden="true">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                </a>
+
+                <a href="https://wa.me/966549155148" class="gemoo-btn gemoo-link-card" target="_blank" rel="noopener noreferrer" aria-label="Contact Gemoo on WhatsApp">
+                    <span class="gemoo-link-icon" aria-hidden="true">
+                        <i class="fab fa-whatsapp"></i>
+                    </span>
+                    <span class="gemoo-link-content">
+                        <span class="gemoo-link-text" data-en="WhatsApp" data-ar="واتساب">WhatsApp</span>
+                    </span>
+                    <span class="gemoo-link-arrow" aria-hidden="true">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="gemoo-qr" aria-labelledby="gemoo-qr-title">
+            <div class="gemoo-section-header">
+                <p class="gemoo-section-kicker">Scan</p>
+                <h2 id="gemoo-qr-title">Connect with Gemoo</h2>
+                <p id="gemoo-qr-text">Scan to access all Gemoo links.</p>
+            </div>
+
+            <div id="gemoo-qrcode" aria-label="QR code for Gemoo links"></div>
+        </section>
+
+        <section class="gemoo-social-section" aria-label="Gemoo social channels">
+            <nav class="gemoo-social" aria-label="Social media links">
+                <a href="https://www.instagram.com/gemoo_design1" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo Instagram profile">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.tiktok.com/@gemoo_design1" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo TikTok profile">
+                    <i class="fab fa-tiktok" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gamal-mohamed-26330832a" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo LinkedIn profile">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.behance.net/gamalmohamed74" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo Behance profile">
+                    <i class="fab fa-behance" aria-hidden="true"></i>
+                </a>
+                <a href="https://x.com/gemoo_design1" target="_blank" rel="noopener noreferrer" aria-label="Open Gemoo X profile">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="gemoo-footer">
+        <p>Gemoo</p>
+        <p>&copy; 2026 Gemoo</p>
+    </footer>
 
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
     <script src="gemoo-script.js"></script>
